@@ -1,0 +1,14 @@
+Why does it do Nodejs does js execution synchronously? will chorme v8 does the same?
+However, Node.js can handle asynchronous operations using:
+Callbacks
+Promises
+Async/Await
+Event Loop (Non-blocking I/O) ??
+v8 does?
+Web APIs (e.g., setTimeout, fetch)
+Event Loop (manages async tasks)
+Callback Queue (executes deferred functions)
+
+Even when handling multiple tasks (like fetching data or reading files), JavaScript
+ doesn’t create new threads but instead delegates work to asynchronous handlers 
+ (like Web APIs in the browser or libuv in Node.js).

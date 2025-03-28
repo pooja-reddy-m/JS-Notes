@@ -1,0 +1,46 @@
+just-in-time compilation?
+translation of Intermediate code(eg: byte code) to machine code(native code) happens at run time,
+while program is executing.
+
+aot(ahead-of-time) compilation?
+translation of Intermediate code(eg: byte code) to machine code(native code) before execution, typically at the build time.
+
+first-class function?
+language in which functions are passed as arguments 
+where function are treated as any other variables
+Can be returned by other functions.
+
+Apache CouchDB?
+is a NoSQL database that is used to assist with efficient document storage.
+
+What is multi-paradigm?
+he ability of a programming language to support multiple programming styles or paradigms, such as object-oriented, functional,
+or imperative, allowing developers to choose the most suitable approach for a given task. 
+
+prototype-based?
+an object-oriented programming style where objects are created by cloning or extending existing objects (prototypes) 
+rather than defining classes.
+
+imperative vs declarative (e.g. functional programming) styles?
+
+for(let i=0;i<10;i++)sum+=i;
+const sum = numbers.reduce((acc, num) => acc + num, 0);
+Using higher order functions// in declarative
+
+How are objects created in JS?
+runtime object construction?
+here is how?
+using object literals
+     
+     const person = {
+  name: "Alice",
+  age: 25,
+  greet: function() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+
+console.log(person.name); // Alice
+person.greet(); // Hello, my name is Alice
+
+
