@@ -26,6 +26,7 @@ imperative vs declarative (e.g. functional programming) styles?
 ```javascript
 for(let i=0;i<10;i++)sum+=i;
 const sum = numbers.reduce((acc, num) => acc + num, 0);
+```
 
 Using higher order functions// in declarative
 
@@ -42,6 +43,7 @@ const person = {
     console.log(`Hello, my name is ${this.name}`);
   }
 }; 
+```
 
 console.log(person.name); // Alice
 person.greet(); // Hello, my name is Alice
